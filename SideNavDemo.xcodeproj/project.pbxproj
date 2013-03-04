@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFE16E6A16DE098F00086626 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFE16E6916DE098F00086626 /* UIKit.framework */; };
+		FFE16E6C16DE098F00086626 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFE16E6B16DE098F00086626 /* Foundation.framework */; };
+		FFE16E6E16DE098F00086626 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFE16E6D16DE098F00086626 /* CoreGraphics.framework */; };
+		FFE16E7416DE098F00086626 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FFE16E7216DE098F00086626 /* InfoPlist.strings */; };
+		FFE16E7616DE098F00086626 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE16E7516DE098F00086626 /* main.m */; };
+		FFE16E7A16DE098F00086626 /* NLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE16E7916DE098F00086626 /* NLAppDelegate.m */; };
+		FFE16E7C16DE098F00086626 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FFE16E7B16DE098F00086626 /* Default.png */; };
+		FFE16E7E16DE098F00086626 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FFE16E7D16DE098F00086626 /* Default@2x.png */; };
+		FFE16E8816DE09B800086626 /* NLSideNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE16E8716DE09B800086626 /* NLSideNavViewController.m */; };
+		FFE16E8B16DF033A00086626 /* NLNavRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE16E8A16DF033A00086626 /* NLNavRootViewController.m */; };
+		FFE16E8E16DF2C0200086626 /* NLLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE16E8D16DF2C0200086626 /* NLLeftViewController.m */; };
+		FFE16E9016DF4BEF00086626 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFE16E8F16DF4BEF00086626 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FFE16E6616DE098F00086626 /* SideNavDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SideNavDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFE16E6916DE098F00086626 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FFE16E6B16DE098F00086626 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FFE16E6D16DE098F00086626 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FFE16E7116DE098F00086626 /* SideNavDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SideNavDemo-Info.plist"; sourceTree = "<group>"; };
+		FFE16E7316DE098F00086626 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FFE16E7516DE098F00086626 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FFE16E7716DE098F00086626 /* SideNavDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SideNavDemo-Prefix.pch"; sourceTree = "<group>"; };
+		FFE16E7816DE098F00086626 /* NLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NLAppDelegate.h; sourceTree = "<group>"; };
+		FFE16E7916DE098F00086626 /* NLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NLAppDelegate.m; sourceTree = "<group>"; };
+		FFE16E7B16DE098F00086626 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FFE16E7D16DE098F00086626 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FFE16E8616DE09B800086626 /* NLSideNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLSideNavViewController.h; sourceTree = "<group>"; };
+		FFE16E8716DE09B800086626 /* NLSideNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLSideNavViewController.m; sourceTree = "<group>"; };
+		FFE16E8916DF033A00086626 /* NLNavRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NLNavRootViewController.h; path = ../../../../../nono/Documents/IOS/SideNavDemo/SideNavDemo/NLNavRootViewController.h; sourceTree = "<group>"; };
+		FFE16E8A16DF033A00086626 /* NLNavRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NLNavRootViewController.m; path = ../../../../../nono/Documents/IOS/SideNavDemo/SideNavDemo/NLNavRootViewController.m; sourceTree = "<group>"; };
+		FFE16E8C16DF2C0200086626 /* NLLeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NLLeftViewController.h; path = ../../../../../nono/Documents/IOS/SideNavDemo/SideNavDemo/NLLeftViewController.h; sourceTree = "<group>"; };
+		FFE16E8D16DF2C0200086626 /* NLLeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NLLeftViewController.m; path = ../../../../../nono/Documents/IOS/SideNavDemo/SideNavDemo/NLLeftViewController.m; sourceTree = "<group>"; };
+		FFE16E8F16DF4BEF00086626 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFE16E6316DE098F00086626 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFE16E9016DF4BEF00086626 /* QuartzCore.framework in Frameworks */,
+				FFE16E6A16DE098F00086626 /* UIKit.framework in Frameworks */,
+				FFE16E6C16DE098F00086626 /* Foundation.framework in Frameworks */,
+				FFE16E6E16DE098F00086626 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFE16E5D16DE098F00086626 = {
+			isa = PBXGroup;
+			children = (
+				FFE16E6F16DE098F00086626 /* SideNavDemo */,
+				FFE16E6816DE098F00086626 /* Frameworks */,
+				FFE16E6716DE098F00086626 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFE16E6716DE098F00086626 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFE16E6616DE098F00086626 /* SideNavDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFE16E6816DE098F00086626 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FFE16E8F16DF4BEF00086626 /* QuartzCore.framework */,
+				FFE16E6916DE098F00086626 /* UIKit.framework */,
+				FFE16E6B16DE098F00086626 /* Foundation.framework */,
+				FFE16E6D16DE098F00086626 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FFE16E6F16DE098F00086626 /* SideNavDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FFE16E7816DE098F00086626 /* NLAppDelegate.h */,
+				FFE16E7916DE098F00086626 /* NLAppDelegate.m */,
+				FFE16E7016DE098F00086626 /* Supporting Files */,
+				FFE16E8616DE09B800086626 /* NLSideNavViewController.h */,
+				FFE16E8716DE09B800086626 /* NLSideNavViewController.m */,
+				FFE16E8916DF033A00086626 /* NLNavRootViewController.h */,
+				FFE16E8A16DF033A00086626 /* NLNavRootViewController.m */,
+				FFE16E8C16DF2C0200086626 /* NLLeftViewController.h */,
+				FFE16E8D16DF2C0200086626 /* NLLeftViewController.m */,
+			);
+			path = SideNavDemo;
+			sourceTree = "<group>";
+		};
+		FFE16E7016DE098F00086626 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFE16E7116DE098F00086626 /* SideNavDemo-Info.plist */,
+				FFE16E7216DE098F00086626 /* InfoPlist.strings */,
+				FFE16E7516DE098F00086626 /* main.m */,
+				FFE16E7716DE098F00086626 /* SideNavDemo-Prefix.pch */,
+				FFE16E7B16DE098F00086626 /* Default.png */,
+				FFE16E7D16DE098F00086626 /* Default@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFE16E6516DE098F00086626 /* SideNavDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFE16E8316DE098F00086626 /* Build configuration list for PBXNativeTarget "SideNavDemo" */;
+			buildPhases = (
+				FFE16E6216DE098F00086626 /* Sources */,
+				FFE16E6316DE098F00086626 /* Frameworks */,
+				FFE16E6416DE098F00086626 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SideNavDemo;
+			productName = SideNavDemo;
+			productReference = FFE16E6616DE098F00086626 /* SideNavDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFE16E5E16DE098F00086626 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NL;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Nono;
+			};
+			buildConfigurationList = FFE16E6116DE098F00086626 /* Build configuration list for PBXProject "SideNavDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FFE16E5D16DE098F00086626;
+			productRefGroup = FFE16E6716DE098F00086626 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFE16E6516DE098F00086626 /* SideNavDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFE16E6416DE098F00086626 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFE16E7416DE098F00086626 /* InfoPlist.strings in Resources */,
+				FFE16E7C16DE098F00086626 /* Default.png in Resources */,
+				FFE16E7E16DE098F00086626 /* Default@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFE16E6216DE098F00086626 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFE16E7616DE098F00086626 /* main.m in Sources */,
+				FFE16E7A16DE098F00086626 /* NLAppDelegate.m in Sources */,
+				FFE16E8816DE09B800086626 /* NLSideNavViewController.m in Sources */,
+				FFE16E8B16DF033A00086626 /* NLNavRootViewController.m in Sources */,
+				FFE16E8E16DF2C0200086626 /* NLLeftViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FFE16E7216DE098F00086626 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFE16E7316DE098F00086626 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFE16E8116DE098F00086626 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: yanan zhu (V7X642S22P)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F6BF9D9B-EE81-4634-A6BD-05989D3E7890";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FFE16E8216DE098F00086626 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: yanan zhu (V7X642S22P)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F6BF9D9B-EE81-4634-A6BD-05989D3E7890";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFE16E8416DE098F00086626 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SideNavDemo/SideNavDemo-Prefix.pch";
+				INFOPLIST_FILE = "SideNavDemo/SideNavDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FFE16E8516DE098F00086626 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SideNavDemo/SideNavDemo-Prefix.pch";
+				INFOPLIST_FILE = "SideNavDemo/SideNavDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFE16E6116DE098F00086626 /* Build configuration list for PBXProject "SideNavDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFE16E8116DE098F00086626 /* Debug */,
+				FFE16E8216DE098F00086626 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFE16E8316DE098F00086626 /* Build configuration list for PBXNativeTarget "SideNavDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFE16E8416DE098F00086626 /* Debug */,
+				FFE16E8516DE098F00086626 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFE16E5E16DE098F00086626 /* Project object */;
+}
